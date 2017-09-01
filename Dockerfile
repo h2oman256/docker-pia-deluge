@@ -4,7 +4,7 @@ MAINTAINER "Jeff Bogatay <jeff@bogatay.com>"
 ENV DEBIAN_FRONTEND noninteractive
 
 VOLUME ["/app/deluge","/torrents"]
-EXPOSE 8112 1080
+EXPOSE 58846 8112 1080
 CMD ["/app/start.sh"]
 
 RUN echo "APT::Install-Recommends 0;" >> /etc/apt/apt.conf.d/01norecommends &&\
