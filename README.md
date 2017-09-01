@@ -1,7 +1,9 @@
 docker-piavpn
 ================
 
-Ubuntu:1404 based Privateinternetaccess.com vpn with torrents/proxy (openvpn, deluged, deluge-web, dante-server)
+Forked from [docker-piavpn](https://github.com/jbogatay/docker-piavpn)
+
+Ubuntu 16.04 based Privateinternetaccess.com vpn with torrents/proxy (openvpn, deluged, deluge-web, dante-server)
 
 Complete run command with all options
 
@@ -21,7 +23,7 @@ Complete run command with all options
         -e PIA_PASS=<password> \
         -e PIA_CLIENT=<optionalpiaclient> \
         -e PIA_GATEWAY=piavpnaddress.com \        
-        gogs@code.ryportal.com:ryan/docker-piavpn.git
+        h2oman256/docker-pia-deluge
 
 
 Change directory mappings as appropriate (delugeconfig, torrents)
